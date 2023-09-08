@@ -47,10 +47,77 @@ export default function AboutMe() {
 
     return (
         <NavFoot>
-        <div className={`row ${Styles.contentContainer}`}>
+        <div className={`row  ${Styles.contentContainer}`}>
   
-            <section className={`col-4 d-flex flex-column justify-content-evenly align-items-center `}>
+            
+
+            <main className="d-flex">
+                <div className="col-6 p-3 pe-4">
+                    <p>
+                        Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who shifted 
+                        from studying human behavior to immersing myself in information technologies. Despite 
+                        this transition between two distinct fields, my core purpose remains, which is to leverage 
+                        my knowledge, skills, and abilities towards enhancing quality of life.
+                    </p>
+                    <p>  
+                        For example, my most impactful role was as a student mentor for at-risk youth. 
+                        This position required me to support individuals to reflect upon their thought 
+                        processes and actions during situations and to construct appropriate 
+                        solutions on the matter, exemplifying my communication, problem-solving, and teamwork skills.
+                    </p> 
+                    <p>    
+                        Since then, my journey has led me to explore technologies and concepts related to web 
+                        development, data analysis, and cyber security. Again, my core purpose remains and can be 
+                        achieved in various ways within the tech space. Whether it involves adding web page interactivity, 
+                        designing dashboards, or monitoring data, my drive is to be part of processes that contribute 
+                        to the end user's quality of life and experience.
+                    </p>  
+                    <p>  
+                        You might be curious about how this endeavor began. It all started during my college days when 
+                        I decided to experiment with code, specifically C#. Within a month, I completed a beginner 
+                        “video game making” tutorial that used UNITY and created my own game, which now lies buried 
+                        deep inside one of my many flash drives. At that point, coding was just a hobby that I had to set 
+                        aside due to academic priorities.
+                    </p>   
+                </div>
+                <div className="col-6 p-3 ps-4">  
+                    <p>      
+                        Fast forward a few years, I found myself in a professional position I had always imagined myself 
+                        being in. However, upon reflection, I could not see fulfillment in the long run. From time to time, 
+                        I would still think about “that C# game” and after this realization, I gradually began exploring 
+                        different fields of technology before specializing in web development and recently venturing into 
+                        data analysis and cyber security. I have questioned whether I belong in the tech world or not and 
+                        the answer is yes because the limitless possibilities it presents satisfies my everlasting curiosity 
+                        and creative desires.
+                    </p>      
+                    <p>     
+                        I believe that my background in psychology has uniquely prepared me for a role in technology. 
+                        While technical skills can be taught and acquired, the ability to empathize, understand, and 
+                        effectively communicate with team members and clients is a quality that often sets individuals apart. 
+                        These qualities are not easily learned and are a great asset when it comes to team dynamics and 
+                        client relationships.
+                    </p> 
+                    <p>    
+                        Now that you’ve gotten to know me a bit, I invite you to explore my projects, where you’ll find 
+                        detailed examples of my work in web development. Also, please feel free to connect with me on 
+                        LinkedIn or reach out via email for an immediate response.
+                    </p> 
+                </div>
+                     
                 
+                
+            </main>
+
+        </div>
+        </NavFoot>
+        
+
+        
+    )
+  }
+
+  {/* <section className={`col-3 d-flex flex-column justify-content-evenly align-items-center border border border-dark`}>
+                <span>made with illustrator</span>
                 <AnimatePresence initial={false} mode="wait">
                     <motion.div
                     key={pages}
@@ -83,28 +150,4 @@ export default function AboutMe() {
 
                 </div>
 
-            </section>
-
-            <main className="col-8 mt-4">
-                <h1>Introduction</h1>
-                <p className="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Consectetur adipiscing elit duis tristique sollicitudin 
-                    nibh sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Consectetur adipiscing elit duis tristique sollicitudin 
-                    nibh sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Consectetur adipiscing elit duis tristique sollicitudin 
-                    nibh sit amet commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Consectetur adipiscing elit duis tristique sollicitudin 
-                    nibh sit amet commodo.
-                </p>
-            </main>
-
-        </div>
-        </NavFoot>
-        
-    )
-  }
+            </section> */}
