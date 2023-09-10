@@ -3,16 +3,21 @@ import Image from 'next/image'
 
 
 
+
 export default function HomeContent() {
     return (
       <div className={`row ${Styles.contentContainer}`}>
   
         <section className={`col-4 d-flex flex-column align-items-center justify-content-center`}>
+
+            {}
+
             <Image
               src= "/imgs/IMG_1358.jpg"
               width={250}
               height={250}
               alt="Picture of the author"
+              priority
               
             />
             <ul className={`mt-5 ${Styles.initialList}`}>Profile Snapshot:
