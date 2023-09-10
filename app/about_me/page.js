@@ -64,7 +64,7 @@ export default function AboutMe() {
                         For example, my most impactful role was as a student mentor for at-risk youth. 
                         This position required me to support individuals to reflect upon their thought 
                         processes and actions during situations and to construct appropriate 
-                        solutions on the matter, exemplifying my communication, problem-solving, and teamwork skills.
+                        responses on the matter, exemplifying my communication, problem-solving, and teamwork skills.
                     </p> 
                     <p>    
                         Since then, my journey has led me to explore technologies and concepts related to web 
@@ -95,7 +95,7 @@ export default function AboutMe() {
                         I believe that my background in psychology has uniquely prepared me for a role in technology. 
                         While technical skills can be taught and acquired, the ability to empathize, understand, and 
                         effectively communicate with team members and clients is a quality that often sets individuals apart. 
-                        These qualities are not easily learned and are a great asset when it comes to team dynamics and 
+                        These qualities are not easily taught and are a great asset when it comes to team dynamics and 
                         client relationships.
                     </p> 
                     <p>    
