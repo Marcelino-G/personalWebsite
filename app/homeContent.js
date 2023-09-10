@@ -1,5 +1,6 @@
 import Styles from "./Styles/page.module.scss"
 import Image from 'next/image'
+import profilePic from "/public/imgs/IMG_1358.jpg"
 
 
 
@@ -13,7 +14,8 @@ export default function HomeContent() {
             {}
 
             <Image
-              src= "/imgs/IMG_1358.jpg"
+              src= {profilePic}
+              placeholder="blur"
               width={250}
               height={250}
               alt="Picture of the author"
