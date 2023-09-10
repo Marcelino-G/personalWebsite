@@ -11,7 +11,7 @@ export default function HomeContent() {
   
         <section className={`col-4 d-flex flex-column align-items-center justify-content-center`}>
 
-            {}
+            
 
             <Image
               src= {profilePic}
