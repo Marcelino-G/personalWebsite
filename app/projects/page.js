@@ -40,6 +40,9 @@ export default function Projects() {
         setAnimateDirection(!animateDirection)
     }
 
+    console.log(typeof(myProjects[pages].description))
+    console.log((myProjects[pages].description))
+
     return (
 
         <NavFoot>
@@ -94,7 +97,7 @@ export default function Projects() {
                         exit= {animateDirection?{opacity: 0, x:10, y: -5} : {opacity: 0, x:-10, y: -5}}>
                             
                             <h1>{myProjects[pages].title}</h1>
-                            <p>{myProjects[pages].description}</p>
+                            {myProjects[pages].description}
                             <ul>
                                 <li>Completed: {myProjects[pages].date}</li>
                                 <li>Focuses on: {myProjects[pages].focus}</li>

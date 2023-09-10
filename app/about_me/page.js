@@ -7,6 +7,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { motion }  from "framer-motion"
+import Link from "next/link";
 
 export default function AboutMe() {
 
@@ -52,7 +53,7 @@ export default function AboutMe() {
             
 
             <main className="d-flex">
-                <div className="col-6 p-3 pe-4">
+                <div className={`col-6 p-3 pe-4 ${Styles.aboutMeLinks}`}>
                     <p>
                         Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who shifted 
                         from studying human behavior to immersing myself in information technologies. Despite 
@@ -75,12 +76,12 @@ export default function AboutMe() {
                     <p>  
                         You might be curious about how this endeavor began. It all started during my college days when 
                         I decided to experiment with code, specifically C#. Within a month, I completed a beginner 
-                        “video game making” tutorial that used UNITY and created my own game, which now lies buried 
-                        deep inside one of my many flash drives. At that point, coding was just a hobby that I had to set 
+                        “video game making” tutorial that used <a href="https://unity.com/products/unity-engine" target="_blank">Unity</a> and 
+                        created my own game. At that point, coding was just a hobby that I had to set 
                         aside due to academic priorities.
                     </p>   
                 </div>
-                <div className="col-6 p-3 ps-4">  
+                <div className={`col-6 p-3 ps-4 ${Styles.aboutMeLinks}`}>  
                     <p>      
                         Fast forward a few years, I found myself in a professional position I had always imagined myself 
                         being in. However, upon reflection, I could not see fulfillment in the long run. From time to time, 
@@ -98,9 +99,10 @@ export default function AboutMe() {
                         client relationships.
                     </p> 
                     <p>    
-                        Now that you’ve gotten to know me a bit, I invite you to explore my projects, where you’ll find 
-                        detailed examples of my work in web development. Also, please feel free to connect with me on 
-                        LinkedIn or reach out via email for an immediate response.
+                        Now that you’ve gotten to know me a bit, I invite you to explore my <Link href={'/projects'}>projects</Link> where 
+                        you’ll find detailed examples of my work in web development. Also, please feel free to connect with me 
+                        on <a href="https://www.linkedin.com/in/marcelino-g/" target="_blank">LinkedIn</a> or reach out 
+                        via <a href="mailto:marcelino.gamino11@gmail.com">email</a> for an immediate response.
                     </p> 
                 </div>
                      
