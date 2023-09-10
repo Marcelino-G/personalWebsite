@@ -62,7 +62,7 @@ export default function Projects() {
 
                         
                         <video autoPlay muted loop className={`col-12`}>
-                            Loading...
+                            <p>Loading...</p>
                             <source src={myProjects[pages].video} type="video/webm" />
                         </video>
 
