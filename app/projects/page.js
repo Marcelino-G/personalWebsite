@@ -60,10 +60,11 @@ export default function Projects() {
                     animate={{opacity: 1}}
                     exit= {animateDirection?{opacity: 0, x:10, y: -5} : {opacity: 0, x:-10, y: -5}}>
 
-                        {myProjects[pages].video === null? <span>Loading...</span> : <video autoPlay muted loop className={`col-12`}>
-                            <source src={myProjects[pages].video} type="video/webm" />
-                        </video>}
                         
+                        <video autoPlay muted loop className={`col-12`}>
+                            Loading...
+                            <source src={myProjects[pages].video} type="video/webm" />
+                        </video>
 
                     </motion.div>
                 </AnimatePresence>
