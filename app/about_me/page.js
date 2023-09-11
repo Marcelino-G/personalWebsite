@@ -1,59 +1,20 @@
+
 "use client"
 import NavFoot from "../NavFoot/NavFootLayout";
 import Styles from "../Styles/page.module.scss"
-import Image from "next/image";
-import { adobeProjects } from "./adobeProjects"
-import { useState } from "react";
-import { useEffect } from "react";
-import { AnimatePresence } from "framer-motion";
-import { motion }  from "framer-motion"
 import Link from "next/link";
+
 
 export default function AboutMe() {
 
-    const [pages, setPages] = useState(0)
-    const [intervalToggle, setIntervalToggle] = useState(true)
-    const [stopInterval, setStopInterval] = useState(true)
-
-    useEffect(() => {
-
-        if(stopInterval === false){
-            return () => {
-                clearInterval(projectSlide)
-            }
-        }
-
-        let projectSlide = setInterval(() => {
-            setIntervalToggle(!intervalToggle)
-        
-            if(pages === adobeProjects.length-1){
-                setPages(0)
-            } else {
-                setPages(pages + 1)
-            }
-            }, 6000)
-
-        return () => {
-            clearInterval(projectSlide)
-        }
-
-    },[intervalToggle, stopInterval])
-
-    const circleAssign = (x) =>{
-
-        setPages(x)
-        setStopInterval(false)
-
-    }
-
     return (
         <NavFoot>
-        <div className={`row  ${Styles.contentContainer}`}>
+        <div className={`row ${Styles.contentContainer}`}>
   
-            
-
             <main className="d-flex">
+
                 <div className={`col-6 p-3 pe-4 ${Styles.aboutMeLinks}`}>
+
                     <p>
                         Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who shifted 
                         from studying human behavior to immersing myself in information technologies. Despite 
@@ -81,6 +42,7 @@ export default function AboutMe() {
                         aside due to academic priorities.
                     </p>   
                 </div>
+
                 <div className={`col-6 p-3 ps-4 ${Styles.aboutMeLinks}`}>  
                     <p>      
                         Fast forward a few years, I found myself in a professional position I had always imagined myself 
@@ -106,17 +68,58 @@ export default function AboutMe() {
                     </p> 
                 </div>
                      
-                
-                
             </main>
-
         </div>
         </NavFoot>
-        
-
-        
     )
   }
+
+
+
+// import Image from "next/image";
+// import { adobeProjects } from "./adobeProjects"
+// import { useState } from "react";
+// import { useEffect } from "react";
+// import { AnimatePresence } from "framer-motion";
+// import { motion }  from "framer-motion"
+
+
+
+      // const [pages, setPages] = useState(0)
+    // const [intervalToggle, setIntervalToggle] = useState(true)
+    // const [stopInterval, setStopInterval] = useState(true)
+
+    // useEffect(() => {
+
+    //     if(stopInterval === false){
+    //         return () => {
+    //             clearInterval(projectSlide)
+    //         }
+    //     }
+
+    //     let projectSlide = setInterval(() => {
+    //         setIntervalToggle(!intervalToggle)
+        
+    //         if(pages === adobeProjects.length-1){
+    //             setPages(0)
+    //         } else {
+    //             setPages(pages + 1)
+    //         }
+    //         }, 6000)
+
+    //     return () => {
+    //         clearInterval(projectSlide)
+    //     }
+
+    // },[intervalToggle, stopInterval])
+
+    // const circleAssign = (x) =>{
+
+    //     setPages(x)
+    //     setStopInterval(false)
+
+    // }
+
 
   {/* <section className={`col-3 d-flex flex-column justify-content-evenly align-items-center border border border-dark`}>
                 <span>made with illustrator</span>

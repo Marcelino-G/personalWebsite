@@ -15,6 +15,7 @@ export const myProjects = [
         focus: "Animation with JavaScript",
         gitVisit: "https://github.com/Marcelino-G/3-000-Meters-Above",
         appVisit: "https://marcelino-g.github.io/3-000-Meters-Above/",
+        youTubeVideo: null,
         video: "/metersGame.mp4"
     },
 
@@ -49,8 +50,7 @@ export const myProjects = [
         The biggest lesson from working on this project was the importance of organization 
         and clarity in code development. Whether that be commenting on functions 
         or ordering them in a certain fashion so that they can be easier to return to
-        when encountering errors or to make adjustments.
-        </p>,
+        when encountering errors or to make adjustments.</p>,
         date: "Aug 2022",
         focus: "React.js",
         gitVisit: 'https://github.com/Marcelino-G/Movie-Pals',

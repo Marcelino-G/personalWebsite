@@ -1,3 +1,4 @@
+
 "use client"
 import Link from "next/link"
 import Styles from '../Styles/page.module.scss'
@@ -9,8 +10,8 @@ export default function Nav() {
 
     return (
       <div className="row">
-        <nav className={`col-12 ${Styles.navFont}`}>
-          <ul className="d-flex justify-content-end m-2">
+        <nav className={`${Styles.navFont}`}>
+          <ul className="d-flex justify-content-end">
 
             <li  className={`col-2`}><Link className={`${pathway === "/"? Styles.navExplorer: null}`} href={'/'}>Home</Link></li>
             <li  className={`col-2`}><Link className={`${pathway === "/projects"? Styles.navExplorer: null}`} href={'/projects'}>Projects</Link></li>

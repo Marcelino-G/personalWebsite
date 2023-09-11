@@ -4,7 +4,7 @@
 }
 
 .navFont{
-    min-height: 45px;
+    min-height: 50px;
     ul{
         li{
           text-align: center;
@@ -47,12 +47,11 @@
     margin: 0 0 32px 0;
     li{
         list-style: initial;
-        
     }
 }
 
 .projectMainContainer{
-    min-height: 410px;
+    min-height: 425px;
     p{
         a:any-link{
             color: initial;
@@ -63,12 +62,7 @@
 .projectList{
     li{
         cursor: pointer;
-        // margin: 5px 0px;
     }
-}
-
-.illustratorFrame{
-    filter: drop-shadow(-5px 1px 2px black);
 }
 
 .circleArrows{
@@ -82,7 +76,6 @@
     p{
         a:any-link{
             color: initial;
-            
         }
     }
     

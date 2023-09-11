@@ -1,10 +1,9 @@
-import Styles from '../Styles/page.module.scss'
 
 export default function Footer() {
     return (
-      <div className={`row `}>
-        <footer className="col-4  " >
-          <ul className="row justify-content-evenly  m-0">
+      <div className="row">
+        <footer className="col-4" >
+          <ul className="row justify-content-evenly">
             <li className="col-2">
               <a href="https://github.com/Marcelino-G" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
