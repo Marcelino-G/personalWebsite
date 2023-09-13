@@ -16,23 +16,22 @@ export default function AboutMe() {
                 <div className={`col-6 p-3 pe-4 ${Styles.aboutMeLinks}`}>
 
                     <p>
-                        Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who shifted 
-                        from studying human behavior to immersing myself in information technologies. Despite 
-                        this transition between two distinct fields, my core purpose remains, which is to leverage 
-                        my knowledge, skills, and abilities towards enhancing quality of life.
+                        Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who transitioned 
+                        from focusing on human behavior to immersing myself in information technologies. Despite this 
+                        transition between two distinct fields, my core purpose remains, which is to leverage my 
+                        knowledge, skills, and abilities towards enhancing quality of life.
                     </p>
                     <p>  
-                        For example, my most impactful role was as a student mentor for at-risk youth. 
-                        This position required me to support individuals to reflect upon their thought 
-                        processes and actions during situations and to construct appropriate 
-                        responses on the matter, exemplifying my communication, problem-solving, and teamwork skills.
+                        For instance, one of my most impactful roles was as a student mentor for at-risk youth. 
+                        This position required me to support individuals in constructing appropriate responses to 
+                        various situations by reflecting on their thoughts and actions together.
                     </p> 
                     <p>    
                         Since then, my journey has led me to explore technologies and concepts related to web 
-                        development, data analysis, and cyber security. Again, my core purpose remains and can be 
-                        achieved in various ways within the tech space. Whether it involves adding web page interactivity, 
+                        development, data analysis, and cyber security. Again, my purpose remains unchanged and can be achieved 
+                        in various ways within the tech space. Whether it involves adding web page interactivity, 
                         designing dashboards, or monitoring data, my drive is to be part of processes that contribute 
-                        to the end user's quality of life and experience.
+                        to the end user's quality of life and overall experience.
                     </p>  
                     <p>  
                         You might be curious about how this endeavor began. It all started during my college days when 

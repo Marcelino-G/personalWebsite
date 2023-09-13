@@ -37,7 +37,7 @@ export default function HomeContent() {
 
               <div>
                 <ul className={`d-flex flex-column align-items-center ${Styles.initialList}`}>At this moment, I am:
-                  <li>Reviewing <a href="https://www.coursera.org/professional-certificates/google-cybersecurity?" target="_blank">Google's cybersecurity program</a> materials</li>
+                  <li>Reviewing <a href="https://www.coursera.org/professional-certificates/google-cybersecurity?" target="_blank">Google's cybersecurity</a> program materials</li>
                   <li>Solving SQL and JavaScript problems on <a href="https://leetcode.com/" target="_blank">LeetCode</a></li>
                   <li>Refreshing my Tableau skills</li>
                 </ul>
@@ -45,16 +45,18 @@ export default function HomeContent() {
 
               <div className="d-flex">
                 <ul className={`col-6 d-flex flex-column align-items-center ${Styles.initialList}`}>Web development tools and technologies:
-                    <li >HTML</li>
-                    <li >CSS</li>
-                    <li >Bootstrap</li>
-                    <li >SCSS</li>
-                    <li >JavaScript</li>
-                    <li >React.js</li>
+                  <li >HTML</li>
+                  <li >CSS</li>
+                  <li >Bootstrap</li>
+                  <li >SCSS</li>
+                  <li >JavaScript</li>
+                  <li >React.js</li>
                 </ul>
+
                 <ul className={`col-6 d-flex flex-column align-items-center ${Styles.initialList}`}>Data analysis tools and technologies:
-                  <li >SQL</li>
+                  <li >Microsoft Excel</li>
                   <li >Tableau</li>
+                  <li >SQL</li>
                 </ul>
               </div>
 
