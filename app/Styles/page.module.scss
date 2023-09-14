@@ -1,6 +1,6 @@
 
 .pageBackground{
-    background-color: #3CA6C0;
+    background-color: #708090 ;
 }
 
 .navFont{
@@ -24,17 +24,17 @@
 
 @keyframes breathe {
     0% {
-        filter: drop-shadow(0px 0px 0px #BE813C);
+        filter: drop-shadow(0px 0px 0px #906F80);
         font-size: 1rem;
     }
 
     50%{
-        filter: drop-shadow(0px 0px 1.25px #BE813C);
+        filter: drop-shadow(0px 0px 1.25px #906F80);
         font-size: 16.75px;
     }
 
     100% {
-        filter: drop-shadow(0px 0px 0px #BE813C);
+        filter: drop-shadow(0px 0px 0px #906F80);
         font-size: 1rem;
     }
 }

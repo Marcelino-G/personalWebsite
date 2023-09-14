@@ -1,6 +1,6 @@
 import Styles from "./Styles/page.module.scss"
 import Image from 'next/image'
-import profilePic from "/public/imgs/IMG_1358.jpg"
+import profilePic from "/public/profilePic.png"
 
 
 export default function HomeContent() {
@@ -9,14 +9,19 @@ export default function HomeContent() {
   
         <section className={`col-4 d-flex flex-column align-items-center justify-content-center`}>
 
+          <div className="col-8">
             <Image
-              src= {profilePic}
-              placeholder="blur"
-              width={250}
-              height={250}
-              alt="Profile picture of the author"
-              priority
-            />
+                src= {profilePic}
+                placeholder="blur"
+                // width={250}
+                // height={250}
+                alt="Profile picture of the author"
+                className="img-fluid"
+                priority
+              />
+          </div>
+
+            
             
             <ul className={`mt-5 ${Styles.initialList}`}>Profile Snapshot:
               <li>Southern California native</li>
