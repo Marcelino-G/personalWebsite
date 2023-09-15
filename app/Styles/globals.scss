@@ -27,6 +27,42 @@ footer{
 }
 
 video{
-  min-height: 195px;
+  min-height: 170px;
   box-shadow: -8px 8px 20px 2px black;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  
+  video{
+    min-height: 229px;
+    
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
+  video{
+    min-height: 125px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  
+  video{
+    min-height: 167px;
+    
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  
+  video{
+    min-height: 195px;
+    
+  }
 }

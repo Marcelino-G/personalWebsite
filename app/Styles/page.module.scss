@@ -5,7 +5,13 @@
 
 .navFont{
     min-height: 50px;
+    background-color: #708090;
+    border-bottom: solid black 3px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     ul{
+        
         li{
           text-align: center;
           margin: 0;
@@ -16,11 +22,7 @@
       }
 }
 
-.navExplorer{
-    animation-name: breathe;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
+
 
 @keyframes breathe {
     0% {
@@ -40,7 +42,7 @@
 }
 
 .contentContainer{
-    min-height: 630px;
+    // min-height: 630px;
 }
 
 .initialList{
@@ -51,7 +53,7 @@
 }
 
 .projectMainContainer{
-    min-height: 425px;
+    min-height: 556px;
     p{
         a:any-link{
             color: initial;
@@ -81,9 +83,56 @@
     
 }
 
+@media screen and (min-width: 992px) {
+
+    .navFont{
+        border-bottom: initial;
+        position: initial; 
+    }
+    .navExplorer{
+        animation-name: breathe;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .projectMainContainer{
+        min-height: 492px;
+        
+    }
+
+    .contentContainer{
+        min-height: 768px;
+    }
+    
+  
+}
 
 
 
+
+@media screen and (min-width: 1200px) {
+    .projectMainContainer{
+        min-height: 450px;
+    }
+
+    .contentContainer{
+        min-height: 675px;
+    }
+
+    
+  
+}
+
+@media screen and (min-width: 1400px) {
+    .projectMainContainer{
+        min-height: 425px;
+    }
+
+    .contentContainer{
+        min-height: 630px;
+    }
+  
+}
 
 
 

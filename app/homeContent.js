@@ -7,9 +7,9 @@ export default function HomeContent() {
     return (
       <div className={`row ${Styles.contentContainer}`}>
   
-        <section className={`col-4 d-flex flex-column align-items-center justify-content-center`}>
+        <section className={`align-items-center mt-5 justify-content-between        justify-content-lg-start              mt-lg-0 col-lg-4 d-flex flex-lg-column align-items-lg-center `}>
 
-          <div className="col-8">
+          <div className="col-4             col-lg-10 col-xl-8">
             <Image
                 src= {profilePic}
                 placeholder="blur"
@@ -23,22 +23,23 @@ export default function HomeContent() {
 
             
             
-            <ul className={`mt-5 ${Styles.initialList}`}>Profile Snapshot:
-              <li>Southern California native</li>
-              <li>Bachelor's degree in Psychology</li>
-              <li>Self-taught in web development</li>
-              <li><a href="https://americorps.gov/" target="_blank" >AmeriCorps</a> alum</li>
-            </ul>
+          <ul className={`col-7 col-md-5            mt-lg-5 col-lg-12 col-xl-10 col-xxl-9 ${Styles.initialList}`}>Profile Snapshot:
+            <li>Southern California native</li>
+            <li>Bachelor's degree in Psychology</li>
+            <li>Self-taught in web development</li>
+            <li><a href="https://americorps.gov/" target="_blank" >AmeriCorps</a> alum</li>
+          </ul>
+
         </section>
 
-        <main className="col-8">
-            <h1 className="p-3">
+        <main className="col-12 mt-5               mt-lg-0 col-lg-8">
+            <h1 className="text-center                   text-lg-start p-3">
               Welcome! 
               <br></br>
               I'm Marcelino, and I'm an explorer in the world of technology
             </h1>
 
-            <div className="row p-2">
+            <div className="                             row p-2">
 
               <div>
                 <ul className={`d-flex flex-column align-items-center ${Styles.initialList}`}>At this moment, I am:
@@ -48,8 +49,8 @@ export default function HomeContent() {
                 </ul>
               </div>
 
-              <div className="d-flex">
-                <ul className={`col-6 d-flex flex-column align-items-center ${Styles.initialList}`}>Web development tools and technologies:
+              <div className="flex-column              d-flex flex-lg-row">
+                <ul className={`col-12                              col-lg-6 d-flex flex-column align-items-center text-center ${Styles.initialList}`}>Web development tools and technologies:
                   <li >HTML</li>
                   <li >CSS</li>
                   <li >Bootstrap</li>
@@ -58,7 +59,7 @@ export default function HomeContent() {
                   <li >React.js</li>
                 </ul>
 
-                <ul className={`col-6 d-flex flex-column align-items-center ${Styles.initialList}`}>Data analysis tools and technologies:
+                <ul className={`col-12                                col-lg-6 d-flex flex-column align-items-center text-center ${Styles.initialList}`}>Data analysis tools and technologies:
                   <li >Microsoft Excel</li>
                   <li >Tableau</li>
                   <li >SQL</li>

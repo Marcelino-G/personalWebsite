@@ -11,9 +11,9 @@ export default function AboutMe() {
         <NavFoot>
         <div className={`row ${Styles.contentContainer}`}>
   
-            <main className="d-flex">
+            <main className="flex-column mt-5                               mt-lg-0 flex-lg-row d-flex">
 
-                <div className={`col-6 p-3 pe-4 ${Styles.aboutMeLinks}`}>
+                <div className={`                  col-lg-6 p-3 pe-xl-4 ${Styles.aboutMeLinks}`}>
 
                     <p>
                         Welcome to my personal website! I'm Marcelino Gamino, a psychology graduate who transitioned 
@@ -42,7 +42,7 @@ export default function AboutMe() {
                     </p>   
                 </div>
 
-                <div className={`col-6 p-3 ps-4 ${Styles.aboutMeLinks}`}>  
+                <div className={`                           col-lg-6 p-3 ps-xl-4 ${Styles.aboutMeLinks}`}>  
                     <p>      
                         Fast forward a few years, I found myself in a professional position I had always imagined myself 
                         being in. However, upon reflection, I could not see fulfillment in the long run. From time to time, 
